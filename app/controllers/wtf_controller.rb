@@ -1,0 +1,2 @@
+class WtfController < ApplicationController
+end
