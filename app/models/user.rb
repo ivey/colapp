@@ -8,5 +8,5 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
 
-  scope :active, where('encrypted_password IS NOT NULL')
+  scope :active, where("encrypted_password IS NOT NULL AND encrypted_password != ''")
 end
