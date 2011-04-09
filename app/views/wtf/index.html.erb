@@ -14,3 +14,7 @@ Want to sign up? It doesn't do anything yet, but <%= link_to "come on in", new_u
 
 <h2>What will it do?</h2>
 Beats me. What do you want it to do?
+
+<div style="border:10px solid green;padding:10px;font-size:110%;width:45%;margin:40px 20%;text-align:center">
+So far, <%= pluralize User.active.count, 'person' %> active.
+</div>
