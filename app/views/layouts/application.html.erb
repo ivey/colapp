@@ -10,6 +10,7 @@
 <div id="header">
   <%= link_to "home", root_path %> |
   <% if user_signed_in? %>
+    <%= link_to "invite people", new_user_invitation_path %> |
     <%= link_to "logout", destroy_user_session_path %> |
   <% else %>
     <%= link_to "login", new_user_session_path %> |

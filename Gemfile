@@ -30,4 +30,6 @@ gem 'sqlite3'
 #   gem 'webrat'
 # end
 gem "settingslogic"
-gem "devise"
+
+gem 'devise',           '~> 1.2.0'
+gem 'devise_invitable', '~> 0.4.0'
