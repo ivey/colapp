@@ -30,3 +30,4 @@ gem 'sqlite3'
 #   gem 'webrat'
 # end
 gem "settingslogic"
+gem "devise"
