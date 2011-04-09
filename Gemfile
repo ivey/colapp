@@ -33,3 +33,5 @@ gem "settingslogic"
 
 gem 'devise',           '~> 1.2.0'
 gem 'devise_invitable', '~> 0.4.0'
+
+gem 'jquery-rails', '>= 0.2.6'
